@@ -2,7 +2,8 @@
 # -*- encoding: utf-8 -*-
 
 from astropy import units as u
-from astropy.coordinates import SkyCoord, EarthLocation
+from astropy.coordinates import SkyCoord, EarthLocation, AltAz
+from astropy.time import Time
 
 observation_location = EarthLocation(lat='52.2532', lon='351.639', height=100*u.m)
 observation_time = Time('2018-10-30 00:30:59')
